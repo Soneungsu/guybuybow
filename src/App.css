@@ -1,0 +1,52 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 100px 0;
+}
+
+.box-container {
+  border: 1px solid black;
+  width: 40%;
+  margin: 0 10px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  border-radius: 10px;
+}
+
+.box-container h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.box-container p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.item-img {
+  width: 50%;
+  height: 100%;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-wrap button {
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+}
